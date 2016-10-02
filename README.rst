@@ -23,5 +23,6 @@ Quick start
 
 4. You now have a generic lookup that will return your model instance from only a uuid::
 
-    Snowflake.objects.get(id=SOMEUUID)
+    >>> Snowflake.objects.get(id=SOMEUUID)
+    <MyModel: MyModel object>
 
