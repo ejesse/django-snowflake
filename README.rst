@@ -21,7 +21,7 @@ Quick start
 
 3. Run `python manage.py makemigrations` and `python manage.py migrate` normally.
 
-4. You can now have a generic lookup that will return your model instance from only a uuid::
+4. You now have a generic lookup that will return your model instance from only a uuid::
 
     Snowflake.objects.get(id=SOMEUUID)
 
